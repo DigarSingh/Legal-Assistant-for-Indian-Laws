@@ -75,3 +75,54 @@ Combines:
 
 ## 🌐 ARCHITECTURE OVERVIEW
 
+[User Query]
+↓
+[Frontend: WhatsApp/Web UI]
+↓
+[Backend: Node.js + Express]
+↓
+┌────────────────────┬────────────────────┬────────────────────────┐
+│ BERT Retrieval │ Mistral-7B Gen │ IndicBERT/Whisper │
+└────────────────────┴────────────────────┴────────────────────────┘
+↓ ↓ ↓
+[India Code / CSVs] [Generated Response] [User Language Output]
+
+yaml
+Copy
+Edit
+
+
+---
+
+## 📦 DEPLOYMENT STACK
+
+| Component         | Tool                                                |
+|------------------|-----------------------------------------------------|
+| Frontend          | WhatsApp API / Web UI                              |
+| Backend           | Node.js + Express                                   |
+| AI Layer          | BERT, Mistral-7B, OpenLLM                           |
+| Translation       | IndicBERT, Whisper                                  |
+| Data Source       | India Code API, CSVs, Agmarknet, data.gov.in       |
+| DB                | PostgreSQL                                          |
+| Hosting           | Vercel (Frontend), Railway (Backend)               |
+
+---
+
+## ⚖️ LEGAL CONSIDERATIONS
+
+- **Informational Use Only**: No legal advice is provided.
+- **Data Privacy**: Follows GDPR and Indian data protection norms.
+
+---
+
+## 💸 MONETIZATION OPTIONS
+
+- Premium subscription: Personalized legal help
+- Legal document generation (e.g., rent agreements, notices)
+- Legal research tool for professionals
+
+---
+
+## 🛠️ Contributors
+
+> Developed with ❤️ by Team WeDevBytes from Graphic Era Deemed to Be University.
